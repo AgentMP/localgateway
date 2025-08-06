@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+      "portfolio-manager": {
+        "command": "npx",
+        "args": ["@modelcontextprotocol/server-fetch"],
+        "env": {
+          "FETCH_BASE_URL": "http://localhost:12345/a2a/portfolio-manager"
+        }
+      },
+      "curated-discovery": {
+        "command": "npx", 
+        "args": ["@modelcontextprotocol/server-fetch"],
+        "env": {
+          "FETCH_BASE_URL": "http://localhost:12345/mcp/curated-discovery"
+        }
+      },
+      "retirement-planner": {
+        "command": "npx",
+        "args": ["@modelcontextprotocol/server-fetch"], 
+        "env": {
+          "FETCH_BASE_URL": "http://localhost:12345/a2a/retirement-planner"
+        }
+      }
+    }
+  }

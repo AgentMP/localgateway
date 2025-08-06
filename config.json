@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+      "curated-discovery": "https://curateddiscovery-788757352670.us-west2.run.app",
+      "my-other-mcp": "https://my-other-mcp-788757352670.us-west2.run.app"
+    },
+    "a2aAgents": {
+      "portfolio-manager": "https://portfoliomanager.a2a.agentmp.io",
+      "retirement-planner": "https://retirementplanneragent.a2a.agentmp.io",
+      "financial-advisor": "https://financialadvisor.a2a.agentmp.io"
+    }
+  }
